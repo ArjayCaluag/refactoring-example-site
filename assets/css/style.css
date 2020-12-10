@@ -95,37 +95,26 @@ aside {
     background-color: #2589bd;
 }
 
-/* benefit lead/brand/cost all share the same values, can consolidate */
+/*Consolidated .benefit-lead, .benefit-brand, and .benefit-cost*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* benefit lead/brand/cost h3 can be consolidated */
-.benefit-lead h3, .benefit-brand, .benefit-cost {
+/*Consolidated .benefit-lead h3, .benefit-bread, .benefit-cost */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* benefit lead/brand/cost img can be consolidated */
-.benefit-lead img {
+/*Consolidated .benefit-lead img, .benefit-brand img, and .benefit-cost img */
+.benefit-lead img , .benefit-brand img, .benefit-cost img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* Consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing together into one CSS selector. */
+/*Consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing together into one CSS selector. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -135,34 +124,25 @@ aside {
     color: #ffffff;
 }
 
-/* .search-engine-optimization/.online-reputation-management/.social-media-marketing img consolidated */
+/*Consolidated .search-engine-optimization/.online-reputation-management/.social-media-marketing img  */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/* search/online/social h2 can be consolidated */
-.search-engine-optimization h2 {
+/*Consolidated .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/*Refactored the class footer into semantic element */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
