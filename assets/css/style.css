@@ -81,7 +81,10 @@ section {
     margin-left: 20px;
 }
 
-.benefits {
+
+
+/* Refacorted <div> class into semantic element aside */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -93,33 +96,13 @@ section {
 }
 
 /* benefit lead/brand/cost all share the same values, can consolidate */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* benefit lead/brand/cost h3 can be consolidated */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+.benefit-lead h3, .benefit-brand, .benefit-cost {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -152,16 +135,8 @@ section {
     color: #ffffff;
 }
 
-/* searh/online/social img can be consolidated */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/* .search-engine-optimization/.online-reputation-management/.social-media-marketing img consolidated */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
