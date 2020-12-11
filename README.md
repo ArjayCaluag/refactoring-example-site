@@ -7,7 +7,7 @@
 # **Installation**
 Clone starting files onto your local computer with Gitbash
 ```bash
-git clone [sshkey]
+git clone [sshlink]
 ```
 Complete refactoring changes and push onto your own Github Repository.
 
@@ -63,7 +63,7 @@ https://arjaycaluag.github.io/refactoring-example-site/
 
 # **Author**
 
-## Ron-Arjay Caluag
+Ron-Arjay Caluag
 
 [Linkedin](https://www.linkedin.com/in/ron-arjay-caluag-00b29b182/)
 <br>
