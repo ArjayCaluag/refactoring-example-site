@@ -43,7 +43,6 @@ header ul li {
     margin-left: 25px;
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,7 +53,6 @@ p {
 }
 
 /* Refactored <div class> .hero into semantic element figure */
-
 figure {
     height: 800px;
     width: 100%;
@@ -80,8 +78,6 @@ section {
     display: inline-block;
     margin-left: 20px;
 }
-
-
 
 /* Refacorted <div> class into semantic element aside */
 aside {
